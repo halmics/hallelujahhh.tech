@@ -1,0 +1,24 @@
+{
+  "name": "hallelujahhh.tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s \"siteroot\" --files \"siteroot/**.*\" --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halmics/hallelujahhh.tech.git"
+  },
+  "keywords": [],
+  "author": "halmics org",
+  "license": "NO LICENSE",
+  "bugs": {
+    "url": "https://github.com/halmics/hallelujahhh.tech/issues"
+  },
+  "homepage": "https://github.com/halmics/hallelujahhh.tech#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2"
+  }
+}
