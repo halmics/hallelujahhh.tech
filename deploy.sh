@@ -2,4 +2,4 @@
 
 set -ex
 
-scp -P 22817 -r ./siteroot/* deploy@hallelujahhh.tech:/home/deploy/hallelujahhh.tech/
+rsync -avz --delete -e 'ssh -p 22817' ./siteroot/ deploy@hallelujahhh.tech:/home/deploy/hallelujahhh.tech/
