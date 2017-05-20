@@ -2,7 +2,4 @@
 
 set -ex
 
-echo "Nothing to do here"
-
-# TODO: サーバにdeploy用のユーザを作成する
-#scp -r ./siteroot/* deploy@hallelujahhh.tech:/var/www/hallelujahhh.tech/
+scp -P 22817 -r ./siteroot/* deploy@hallelujahhh.tech:/home/deploy/hallelujahhh.tech/
