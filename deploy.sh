@@ -2,4 +2,4 @@
 
 set -ex
 
-rsync -acvz --delete -e 'ssh -p 22817' ./siteroot/ deploy@hallelujahhh.tech:/home/deploy/hallelujahhh.tech/
+rsync -acvz --delete -e 'ssh -p 22817' ./siteroot/ deploy@hallelujahhh.tech:/var/www/hallelujahhh.tech/
