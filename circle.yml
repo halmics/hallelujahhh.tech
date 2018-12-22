@@ -13,8 +13,3 @@ test:
   override:
     - echo "Nothing to do here"
 
-deployment:
-  production:
-    branch: master
-    commands:
-      - ./deploy.sh
