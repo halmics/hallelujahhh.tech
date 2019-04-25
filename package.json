@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/halmics/hallelujahhh.tech#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3"
+    "browser-sync": "2.26.3"
   }
 }
