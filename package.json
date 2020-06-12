@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/halmics/hallelujahhh.tech.git"
   },
+  "engines": {
+    "npm": "please_use_yarn_instead"
+  },
   "keywords": [],
   "author": "halmics org",
   "license": "NO LICENSE",
