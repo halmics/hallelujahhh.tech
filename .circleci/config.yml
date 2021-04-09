@@ -4,13 +4,13 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:10.24.0
+      - image: circleci/node:10.24.1
     steps:
       - checkout
       - run: echo "Nothing to do here"
   test:
     docker:
-      - image: circleci/node:10.24.0
+      - image: circleci/node:10.24.1
     steps:
       - checkout
       - run: echo "Nothing to do here"
